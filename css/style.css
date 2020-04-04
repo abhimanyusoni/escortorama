@@ -1,0 +1,1195 @@
+﻿
+@font-face {
+    font-family: futura medium;
+    src: url('../fonts/futura/futura\ medium\ bt.ttf');
+}
+@font-face {
+    font-family: futura bold;
+    src: url('../fonts/futura/futura\ Futura Bold font.ttf');
+}
+@font-face {
+    font-family: futura light;
+    src: url('../fonts/futura/Futura\ Light\ font.ttf');
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: 48px;
+}
+
+header nav{
+    height: 48px;
+}
+
+.navbar{
+    padding: 0;
+}
+
+header{
+    background-image: url(../images/headerbg1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 48px;
+    width: 100%;
+}
+
+header .nav-link{
+    color:#e4b76a;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Gelasio', serif;
+    padding: 0 8px;
+}
+
+header .nav-link:hover{
+    color: #db9b2b;
+}
+
+#private_escort .row {
+    padding: 2px 30px;
+    align-items: center;
+}
+
+.private_escort_button button{
+    background-image: url(../images/private_escort_button_bg.jpg);
+    background-repeat: no-repeat;
+    border: none;
+    color: white;
+    padding: 17px 30px;
+    font-family: 'Muli', sans-serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.location a{
+    font-weight: 700;
+    color: #090909;
+    font-size: 0.76rem;
+    font-family: 'Gelasio', serif;
+    margin-left: 23px;
+    text-decoration: none;
+}
+
+ 
+
+#private_escort ul{
+    margin-top: 13px;
+}
+
+.main_body{
+    background-image: url(../images/main_body_bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100%;
+    
+}
+
+/***************************************side filter bar******************************************************/
+
+.side-filter-bar {
+    background-image: url(../images/sidebar_bg.jpg);
+    
+    background-position: center;
+    background-size: cover;
+}
+
+.filters-all ul {
+    list-style: none;
+}
+
+.filters-all ul li {
+    border-bottom: 1px solid rgba(255,255,255,.1);
+    padding: 16px 7px;
+}
+
+.filters-all ul li a {
+    font-size: 18px;
+    color: #fff;
+}
+
+.your_search {
+    background-image: url(../images/your_search_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 52px;
+}
+
+.your_search h4 {
+    font-family: 'Gelasio', serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px;
+}
+
+.search-bar {
+    background-image: url(../images/sidebar_input_border.png);
+    margin: 18px 0 0 18px;
+    /* background-position: center; */
+    background-size: cover;
+    padding-left: 8px;
+    width: 92%;
+}
+.specific_location_search_input {
+    /* margin-left: 15px; */
+    width: 92.5%;
+    height: 54px;
+    background-repeat: no-repeat;
+}
+
+.specific_location_search_input input[type="text"] {
+    margin-top: 8PX;
+    width: 100%;
+    height: 36px;
+    border: none;
+    outline: none;
+    font-family: 'Gelasio', serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 15px;
+}
+
+.specific_location_search_input input[type="text"]::placeholder{
+    color: #090909;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.custom-control{
+    display: inline-flex;
+    color: white;
+    margin-top: 20px;
+    margin-left: 0px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.more_filter_sec .color-grey{
+    display: none;
+}
+
+.custom-control input{
+    margin-top: 0.4rem;
+    cursor: pointer;
+}
+
+.custom-control label{
+    letter-spacing: 2px;
+    font-family: futura medium;;
+}
+
+.filters-all {
+    padding: 0 45px;
+}
+
+.filters-all ul li {
+    border-bottom: 1px solid #848484;
+    padding: 12px 0;
+}
+
+.filters-all ul li a{
+    font-family: futura medium;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.tas{
+    border-bottom: none !important;
+}
+
+.form-group button{
+    background-image: url(../images/apply_button_bckgrnd.png);
+    background-repeat: no-repeat;
+    height: 48px;
+    background-position: center;
+    background-size: cover;
+    width: 98px;
+    margin: 0 15px 15px;
+    font-family: 'Gelasio', serif;
+    font-size: 0.76rem;
+    font-weight: 600;
+    color: #090909;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#search_results{
+    padding-bottom: 150px;
+}
+
+.search_results_title{
+    margin-bottom: 110px;
+}
+
+.search_results_title h3{
+    font-family: 'Gelasio', serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #020202;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+p.color-grey{
+    font-family: 'Gelasio', serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.viewed_profile_1{
+    font-family: 'Gelasio', serif;
+    font-weight: bold;
+    background-image: url(../images/profile1_bckgrnd.png);
+    background-position: center;
+    background-size: cover;
+    height: 745px;
+    color: #e4b76a;
+}
+
+.viewed_profile_1 h1, h2, h3, h4, h5, h6{
+    margin-bottom: 0;
+} 
+
+a:hover{
+    text-decoration: none;
+}
+
+.profile_age_price {
+    padding: 10px 35px;
+}
+
+.profile_age_price h5{
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.profile_age_price span{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.available{
+    padding: 10px 0;
+}
+
+.available h4{
+    font-weight: 700;
+}
+
+img.float-left {
+    width: 90%;
+}
+
+img.float-right {
+    width: 90%;
+}
+
+.available h5{
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.profile-img {
+    padding: 10px 50px;
+}
+
+.profile_title{
+    margin-top: 28px;
+}
+
+.profile_title h1{
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.profile_bottom_title{
+    margin: 5px 0;
+}
+
+.profile_title h3{
+    font-size: 21px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.viewed_profile_2 h1, h2, h3, h4, h5, h6{
+    margin-bottom: 0;
+}
+
+.viewed_profile_2{
+    font-family: 'Gelasio', serif;
+    font-weight: bold;
+    background-image: url(../images/profile2_bckgrnd.png);
+    background-position: center;
+    background-size: cover;
+    height: 745px;
+    color: #3d1e00;
+}
+
+.col-lg-3.col-md-5.col-7.filter-bar {
+    padding-right: 0;
+}
+
+button.btn.d-block.d-lg-none.filter-btn {
+    margin-bottom: 5px;
+}
+
+.available_bg{
+    background-image: url(../images/available_bg.png);
+    background-position: center;
+    background-size: cover;
+    width: 210px;
+    margin: auto;
+    color: #e4b76a;
+    text-align: center;
+}
+
+.pagination{
+    text-align: center;
+    margin: 0px auto;
+    display: none;
+}
+
+
+/**************************footer*************************************/
+
+
+footer .footer_top{
+    background-image: url(../images/footer_top_bg_1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 183px;
+}
+
+footer .footer_top .row{
+    align-items: center;
+}
+
+footer .footer_top .tnc_pp{
+    display: block;
+    margin-top: 10px;
+}
+
+footer .footer_top .tnc_pp a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-size: 12px;
+    padding: 5px 0;
+    font-family: 'Gelasio', serif;
+    font-weight: 500;
+}
+
+.footer_top img{
+    margin: 10px 0;
+}
+
+.return_main_page img{
+    margin-top: 8px;
+}
+
+.footer_bottom{
+    background-image: url(../images/footer_bottom.png);
+}
+
+.footer_bottom h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 10px 0;
+    font-size: 14px;
+}
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+
+
+/*****************************media query******************************/
+
+@media screen and (max-width: 1600px){
+    .your_search {
+        height: 46px;
+    }
+
+    .your_search h4 {
+        padding: 13px;
+    }
+
+    .specific_location_search_input input[type="text"] {
+        height: 30px;
+        outline: none;
+        font-size: 16px;
+    }
+
+    .specific_location_search_input {
+        height: 46px;
+    }
+
+    .viewed_profile_1{
+        height: 630px;
+        display: grid;
+    }
+
+    .profile_title{
+        margin-top: 24px;
+    }
+
+    .profile_title h1{
+        font-size: 24px;
+    }
+
+    img.float-left {
+        width: 100%;
+    }
+
+    img.float-right {
+        width: 100%;
+    }
+
+    .profile_title h3{
+        font-size: 20px;
+    }
+
+    .profile-img {
+        padding: 0px 20px;
+    }
+
+    .profile_age_price {
+        padding: 0px 35px;
+    }
+
+    .available {
+        padding: 5px 0;
+    }
+
+    .profile_bottom_title {
+        margin-top: 0;
+    }
+
+    .viewed_profile_2{
+        height: 630px;
+        display: grid;
+    }
+}
+
+@media screen and (min-width: 2300px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1.5rem;
+    }
+
+    header .nav-link{
+        font-size: 16px;
+        padding: 0 16px;
+    }
+
+    .viewed_profile_1{
+        height: 930px;
+    }
+
+    .viewed_profile_2{
+        height: 930px;
+    }
+
+    .side-filter-bar {
+        height: 1020px;
+    }
+
+    .your_search {
+        height: 64px;
+    }
+
+    .search-bar{
+        width: 95%;
+        margin: 14px 0 0 14px;
+    }
+
+    .specific_location_search_input {
+        height: 71px;
+     
+    }
+
+    .specific_location_search_input input[type="text"] {
+        margin-top: 17PX;
+        height: 34px;
+        margin-left: 5px;
+    }
+
+    .filters-all ul li a {
+        font-size: 16px;
+    }
+
+    .filters-all ul li {
+        padding: 26px 0;
+    }
+
+    .custom-control {
+        margin-top: 28px;
+        margin-bottom: 28px;
+    }
+
+    .form-group {
+        MARGIN-TOP: 35PX;
+    }
+
+    .profile_title {
+        margin-top: 45px;
+    }
+
+    .profile_title h1{
+        font-size: 40px;
+    }
+
+    .profile_title h3{
+        font-size: 34px;
+    }
+
+    .profile_age_price {
+        padding: 5px 65px;
+    }
+
+    .profile_age_price h5{
+        font-size: 25px;
+    }
+
+    .profile_age_price span {
+        font-size: 30px;
+    }
+
+    .available h5{
+        font-size: 25px;
+    }
+
+    .available_bg{
+        width: 280px;
+    }
+
+    .available h4{
+        font-size: 30px;
+    }
+
+    .profile_bottom_title h1{
+        font-size: 40px;
+    }
+
+    .profile_bottom_title {
+        margin: 0px 0;
+    }
+
+    img.float-left {
+        width: 90%;
+        margin-top: -5px;
+        margin-left: 20px;
+    }
+
+    img.float-right {
+        width: 90%;
+        margin: -5px 20px 0 0;
+    }
+
+    .search_results_title h3 {
+        font-size: 40px;
+    }
+
+    .search_results_title p {
+        font-size: 22px;
+    }
+
+    .search_results_title {
+        margin-bottom: 90px;
+    }
+}
+
+@media (min-width: 992px) and (max-width:1279px){
+    .viewed_profile_1{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .viewed_profile_2{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
+
+@media screen and (max-width: 1282px){
+
+    .side-filter-bar {
+        background-image: url(../images/sidebar_bg.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .your_search {
+        height: 36px;
+    }
+
+    .your_search h4 {
+        padding: 10px;
+    }
+
+    .your_search h4 {
+        font-size: 16px;
+    }
+
+    .specific_location_search_input {
+        height: 36px;
+    }
+
+    .specific_location_search_input input[type="text"] {
+        height: 18px;
+    }
+
+    .form-check-input {
+        margin-top: 0.5rem;
+    }
+
+    .custom-control label {
+        font-size: 11px;
+    }
+
+    .custom-control{
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .filters-all {
+        padding: 0 30px;
+    }
+
+    .filters-all ul li {
+        padding: 10px 0;
+    }
+
+    .form-group button {
+        height: 38px;
+        width: 70px;
+    }
+
+    .viewed_profile_1 {
+        height: 495px;
+    }
+
+    .viewed_profile_2 {
+        height: 495px;
+    }
+
+    .profile_title {
+        margin-top: 2px;
+    }
+
+    .profile_title h1 {
+        font-size: 18px;
+    }
+    
+    .profile_title h3 {
+        font-size: 16px;
+    } 
+    
+    .profile_age_price {
+        padding: 7px 15px;
+    }
+
+    .profile_age_price h5 {
+        font-size: 11px;
+    }
+
+    .profile_age_price span {
+        font-size: 15px;
+    }
+    .available h5 {
+        font-size: 12px;
+    }
+
+    .profile-img {
+        padding: 5px 15px;
+    }
+
+    img.float-left {
+        width: 100%;
+    }
+
+    img.float-right {
+        width: 100%;
+    }
+
+    .profile-img{
+        height: 36%;
+    }
+
+    .available h4 {
+        font-size: 14px;
+    }
+
+    .profile_bottom_title h1{
+        font-size: 20px;
+    }
+
+    .search_results_title {
+        margin-bottom: 75px;
+    }
+
+    .search-bar {
+        margin: 12px 0 0 12px;
+    }
+
+ 
+}
+
+
+@media screen and (max-width: 1026px){
+
+    .main_body {
+        background-size: cover;
+    
+    }
+    
+    .your_search {
+        height: 30px;
+    }
+
+    .your_search h4 {
+        font-size: 12px;
+        padding: 9px;
+    }
+
+    .search-bar {
+        margin: 10px 0 0 10px;
+    }
+
+    .specific_location_search_input {
+        height: 28px;
+    }
+
+    .specific_location_search_input input[type="text"] {
+        height: 12px;
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    .custom-control {
+        margin-top: 12px;
+        margin-bottom: 8px;
+    }
+
+    .filters-all ul li {
+        padding: 7px 0;
+    }
+
+    .filters-all ul li a {
+        font-size: 12x;
+    }
+
+    .search_results_title h3 {
+        font-size: 20px;
+        margin-top: 18px;
+    }
+    
+    .search_results_title {
+        margin-bottom: 60px;
+    }
+
+    .viewed_profile_1 {
+        height: 395px;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+        
+    }
+
+    .viewed_profile_2 {
+        height: 395px;
+    }
+
+    .profile_title {
+        margin-top: 0px;
+    }
+
+    img.float-left {
+        width: 85%;
+    }
+
+    img.float-right {
+        width: 85%;
+    }
+
+    .profile_title h1 {
+        font-size: 14px;
+    }
+
+    .profile_title h3 {
+        font-size: 12px;
+    }
+
+    .profile_age_price {
+        padding: 0px 15px;
+    }
+
+    .profile_title h3 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    header{
+        height: auto;
+        padding: 20px 0px;
+    }
+    div#navbarCollapse {
+        margin-top: 20px;
+    }
+
+    header nav {
+        height: auto;
+    }
+    li.nav-item {
+        padding: 15px 0px;
+    }
+
+    header .nav-link {
+        padding: 0 15px 0px 0px;
+    }
+
+    div#collapseExample {
+        position: absolute;
+        z-index: 999;
+        width: 100%;
+    }
+    .main_body{
+        background-attachment: unset;
+    }
+
+    .private_escort_button button {
+        padding: 12px 10px;
+        font-size: 7px;
+        cursor: pointer;
+    }
+
+    #private_escort{
+        display: none;
+    }
+
+
+    .location {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* .side-filter-bar{
+        display: none;
+    } */
+    #d_none_filter{
+        display: none;
+    }
+
+    .search_results_title {
+        margin-bottom: 0px;
+    }
+
+    .filter-btn img{
+        
+        margin-left: -10px;
+        margin-top: -15px;
+    }
+
+    
+    .viewed_profile_1 {
+        width: auto;
+    }
+
+    .viewed_profile_2 {
+        width: auto;
+    }
+
+    p.color-grey {
+        margin-left: 6px;
+    }
+
+    .side-filter-bar {
+        width: 50%;
+    }
+
+    .your_search {
+        height: 50px;
+    }
+
+    .your_search h4 {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .specific_location_search_input {
+        height: 46px;
+    }
+
+    .specific_location_search_input input[type="text"] {
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .filters-all ul li {
+        padding: 06px 0;
+    }
+
+    .filters-all ul li a{
+        font-size: 10px;
+    }
+
+    .search_results_title .color-grey{
+        display: none;
+    }
+    .more_filter_sec .color-grey{
+        display: block;
+    }
+
+    footer .footer_top .tnc_pp{
+        display: none;
+    }
+    .footer_icon {
+        text-align: center;
+    }
+    .footer_bottom h6 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        padding: 10px 0;
+        font-size: 12px;
+    }
+    .pagination{
+        text-align: center;
+        margin: 0px auto;
+        display: block;
+    }
+    
+
+}
+
+@media (min-width: 486px) and (max-width:767px){
+
+    
+   
+
+    .private_escort_button button {
+        margin-left: 34%;
+    }
+
+    .side-filter-bar {
+        width: 100%;
+    }
+    
+
+    .viewed_profile_1 {
+        height: auto;
+        margin-bottom: 25px;
+        width: auto;
+        padding: 70px !important;
+        background-image: url(../images/profile_1_mobile.png);
+    }
+
+   .viewed_profile_2 {
+        height: auto;
+        margin-bottom: 25px;
+        width: auto;
+        padding: 70px !important;
+    }
+
+    img.float-left {
+        height: 72%;
+        margin-top: 30px;
+    }
+
+    img.float-right {
+        height: 72%;
+        margin-top: 30px;
+    }
+
+    
+    .viewed_profile_2{
+        background-image: url(../images/profile_2_mobile.png);
+        color: #3d1e00;
+    }
+    
+}
+
+@media screen and (max-width:485px){
+
+    .navbar-toggler img{
+        width: 40px;
+    }
+
+    a.d-block.d-lg-none img {
+        width: 40px;
+    }
+
+    .side-filter-bar {
+        width: 90%;
+    }
+    
+
+    
+    .viewed_profile_1 {
+        height: 430px;
+        margin-bottom: 23px;
+        background-image: url(../images/profile_1_mobile.png);
+    }
+
+    
+    
+    .viewed_profile_2{
+        background-image: url(../images/profile_2_mobile.png);
+        color: #3d1e00;
+    }
+    
+
+    .navbar-brand{
+        margin-right: 0;
+    }
+
+    .your_search {
+        height: 46px;
+    }
+
+    .your_search h4 {
+        padding: 13px;
+    }
+
+    .specific_location_search_input {
+        height: 48px;
+    }
+
+    .specific_location_search_input input[type="text"] {
+        height: 32px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 376px){
+    .viewed_profile_1 {
+        height: 370px;
+        margin-bottom: 23px;
+        background-image: url(../images/profile_1_mobile.png);
+    }
+
+    .viewed_profile_2 {
+        height: 370px;
+        margin-bottom: 23px;
+        background-image: url(../images/profile_2_mobile.png);
+        color: #3d1e00;
+    }
+    
+    .viewed_profile_2{
+     
+    }
+    
+
+    .navbar-brand{
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 322px){
+    .navbar-toggler img {
+        width: 40px;
+    }
+
+    .navbar-brand img{
+        height: 40px;
+
+    }
+
+    
+    
+    .viewed_profile_2{
+        background-image: url(../images/profile_2_mobile.png);
+        color: #3d1e00;
+    }
+    
+
+    a.d-block.d-lg-none img {
+        width: 36px;
+    }
+
+    nav.navbar.navbar-expand-lg {
+        padding-top: 5px;
+    }
+
+    .viewed_profile_1 {
+        height: 325px;
+        padding: 35px 25px 50px !important;
+    }
+
+    .viewed_profile_2 {
+        height: 325px;
+        padding: 35px 25px 50px !important;
+    }
+
+    .profile_age_price {
+        padding: 4px 15px;
+    }
+
+    img.float-left {
+        height: 45%;
+    }
+
+    img.float-right {
+        height: 45%;
+    }
+
+    .profile_title h3 {
+        font-size: 11px;
+    }
+
+    .profile_title h1 {
+        font-size: 14px;
+    }
+
+    .your_search {
+        height: 38px;
+    }
+
+    .your_search h4 {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .specific_location_search_input {
+        height: 36px;
+    }
+
+    .specific_location_search_input input[type="text"] {
+        height: 22px;
+    }
+}
+
+@media (min-width:340px) and (max-width:365px){
+    .your_search {
+        height: 40px;
+    }
+
+    .your_search h4 {
+        padding: 10px;
+    }
+
+    .specific_location_search_input {
+        height: 40px;
+    }
+
+    .specific_location_search_input input[type="text"] {
+        height: 25px;
+        font-size: 12px;
+    }
+
+    .search-bar {
+        margin: 14px 0 0 14px;
+    }
+}
